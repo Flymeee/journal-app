@@ -1,0 +1,5 @@
+class AddUserRefToJournalEntries < ActiveRecord::Migration[8.0]
+  def change
+   # add_reference :journal_entries, :user, null: false, foreign_key: true
+  end
+end
